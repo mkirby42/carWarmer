@@ -9,12 +9,17 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    @StateObject var ble = BLEManager.shared
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
     var body: some View {
         NavigationSplitView {
             List {
+                Button { ble.startScanningFor(3) } label: {
+                    Text("Scan")
+                }
+                
                 ForEach(items) { item in
                     NavigationLink {
                         Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
@@ -23,6 +28,7 @@ struct ContentView: View {
                     }
                 }
                 .onDelete(perform: deleteItems)
+                
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {

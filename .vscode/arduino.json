@@ -1,0 +1,6 @@
+{
+    "board": "arduino:mbed_nano:nano33ble",
+    "sketch": "CarWarmerFirmware/measure_and_broadcast/measure_and_broadcast.ino",
+    "port": "/dev/tty.usbmodem2101",
+    "output": "build"
+}
