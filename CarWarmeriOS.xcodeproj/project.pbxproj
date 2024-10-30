@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C9E4817F2CD2E73600C3DD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E481622CD2E73400C3DD69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E481692CD2E73400C3DD69;
+			remoteInfo = CarWarmeriOS;
+		};
+		C9E481892CD2E73600C3DD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E481622CD2E73400C3DD69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E481692CD2E73400C3DD69;
+			remoteInfo = CarWarmeriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9E4816A2CD2E73400C3DD69 /* CarWarmeriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWarmeriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E4817E2CD2E73600C3DD69 /* CarWarmeriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWarmeriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E481882CD2E73600C3DD69 /* CarWarmeriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWarmeriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C9E481902CD2E73600C3DD69 /* Exceptions for "CarWarmeriOS" folder in "CarWarmeriOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C9E481692CD2E73400C3DD69 /* CarWarmeriOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C9E4816C2CD2E73400C3DD69 /* CarWarmeriOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C9E481902CD2E73600C3DD69 /* Exceptions for "CarWarmeriOS" folder in "CarWarmeriOS" target */,
+			);
+			path = CarWarmeriOS;
+			sourceTree = "<group>";
+		};
+		C9E481812CD2E73600C3DD69 /* CarWarmeriOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarWarmeriOSTests;
+			sourceTree = "<group>";
+		};
+		C9E4818B2CD2E73600C3DD69 /* CarWarmeriOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarWarmeriOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9E481672CD2E73400C3DD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E4817B2CD2E73600C3DD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E481852CD2E73600C3DD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9E481612CD2E73400C3DD69 = {
+			isa = PBXGroup;
+			children = (
+				C9E4816C2CD2E73400C3DD69 /* CarWarmeriOS */,
+				C9E481812CD2E73600C3DD69 /* CarWarmeriOSTests */,
+				C9E4818B2CD2E73600C3DD69 /* CarWarmeriOSUITests */,
+				C9E4816B2CD2E73400C3DD69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E4816B2CD2E73400C3DD69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E4816A2CD2E73400C3DD69 /* CarWarmeriOS.app */,
+				C9E4817E2CD2E73600C3DD69 /* CarWarmeriOSTests.xctest */,
+				C9E481882CD2E73600C3DD69 /* CarWarmeriOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E481692CD2E73400C3DD69 /* CarWarmeriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E481912CD2E73600C3DD69 /* Build configuration list for PBXNativeTarget "CarWarmeriOS" */;
+			buildPhases = (
+				C9E481662CD2E73400C3DD69 /* Sources */,
+				C9E481672CD2E73400C3DD69 /* Frameworks */,
+				C9E481682CD2E73400C3DD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C9E4816C2CD2E73400C3DD69 /* CarWarmeriOS */,
+			);
+			name = CarWarmeriOS;
+			packageProductDependencies = (
+			);
+			productName = CarWarmeriOS;
+			productReference = C9E4816A2CD2E73400C3DD69 /* CarWarmeriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9E4817D2CD2E73600C3DD69 /* CarWarmeriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E481962CD2E73600C3DD69 /* Build configuration list for PBXNativeTarget "CarWarmeriOSTests" */;
+			buildPhases = (
+				C9E4817A2CD2E73600C3DD69 /* Sources */,
+				C9E4817B2CD2E73600C3DD69 /* Frameworks */,
+				C9E4817C2CD2E73600C3DD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E481802CD2E73600C3DD69 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C9E481812CD2E73600C3DD69 /* CarWarmeriOSTests */,
+			);
+			name = CarWarmeriOSTests;
+			packageProductDependencies = (
+			);
+			productName = CarWarmeriOSTests;
+			productReference = C9E4817E2CD2E73600C3DD69 /* CarWarmeriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9E481872CD2E73600C3DD69 /* CarWarmeriOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E481992CD2E73600C3DD69 /* Build configuration list for PBXNativeTarget "CarWarmeriOSUITests" */;
+			buildPhases = (
+				C9E481842CD2E73600C3DD69 /* Sources */,
+				C9E481852CD2E73600C3DD69 /* Frameworks */,
+				C9E481862CD2E73600C3DD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E4818A2CD2E73600C3DD69 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C9E4818B2CD2E73600C3DD69 /* CarWarmeriOSUITests */,
+			);
+			name = CarWarmeriOSUITests;
+			packageProductDependencies = (
+			);
+			productName = CarWarmeriOSUITests;
+			productReference = C9E481882CD2E73600C3DD69 /* CarWarmeriOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9E481622CD2E73400C3DD69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C9E481692CD2E73400C3DD69 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C9E4817D2CD2E73600C3DD69 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C9E481692CD2E73400C3DD69;
+					};
+					C9E481872CD2E73600C3DD69 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C9E481692CD2E73400C3DD69;
+					};
+				};
+			};
+			buildConfigurationList = C9E481652CD2E73400C3DD69 /* Build configuration list for PBXProject "CarWarmeriOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9E481612CD2E73400C3DD69;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C9E4816B2CD2E73400C3DD69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E481692CD2E73400C3DD69 /* CarWarmeriOS */,
+				C9E4817D2CD2E73600C3DD69 /* CarWarmeriOSTests */,
+				C9E481872CD2E73600C3DD69 /* CarWarmeriOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9E481682CD2E73400C3DD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E4817C2CD2E73600C3DD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E481862CD2E73600C3DD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9E481662CD2E73400C3DD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E4817A2CD2E73600C3DD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E481842CD2E73600C3DD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9E481802CD2E73600C3DD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E481692CD2E73400C3DD69 /* CarWarmeriOS */;
+			targetProxy = C9E4817F2CD2E73600C3DD69 /* PBXContainerItemProxy */;
+		};
+		C9E4818A2CD2E73600C3DD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E481692CD2E73400C3DD69 /* CarWarmeriOS */;
+			targetProxy = C9E481892CD2E73600C3DD69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9E481922CD2E73600C3DD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarWarmeriOS/CarWarmeriOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarWarmeriOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DR9844437;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarWarmeriOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathwkirby.CarWarmeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9E481932CD2E73600C3DD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarWarmeriOS/CarWarmeriOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarWarmeriOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DR9844437;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarWarmeriOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathwkirby.CarWarmeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9E481942CD2E73600C3DD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9E481952CD2E73600C3DD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9E481972CD2E73600C3DD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DR9844437;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathwkirby.CarWarmeriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWarmeriOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarWarmeriOS";
+			};
+			name = Debug;
+		};
+		C9E481982CD2E73600C3DD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DR9844437;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathwkirby.CarWarmeriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWarmeriOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarWarmeriOS";
+			};
+			name = Release;
+		};
+		C9E4819A2CD2E73600C3DD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DR9844437;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathwkirby.CarWarmeriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWarmeriOS;
+			};
+			name = Debug;
+		};
+		C9E4819B2CD2E73600C3DD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DR9844437;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathwkirby.CarWarmeriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWarmeriOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9E481652CD2E73400C3DD69 /* Build configuration list for PBXProject "CarWarmeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E481942CD2E73600C3DD69 /* Debug */,
+				C9E481952CD2E73600C3DD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E481912CD2E73600C3DD69 /* Build configuration list for PBXNativeTarget "CarWarmeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E481922CD2E73600C3DD69 /* Debug */,
+				C9E481932CD2E73600C3DD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E481962CD2E73600C3DD69 /* Build configuration list for PBXNativeTarget "CarWarmeriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E481972CD2E73600C3DD69 /* Debug */,
+				C9E481982CD2E73600C3DD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E481992CD2E73600C3DD69 /* Build configuration list for PBXNativeTarget "CarWarmeriOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E4819A2CD2E73600C3DD69 /* Debug */,
+				C9E4819B2CD2E73600C3DD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9E481622CD2E73400C3DD69 /* Project object */;
+}
